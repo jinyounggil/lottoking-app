@@ -1015,6 +1015,35 @@ with right:
             </p>
         </div>
         """, unsafe_allow_html=True)
+  
+  # YouTube 구독 배너 추가
+  st.markdown("<div style='margin-top:50px;'></div>", unsafe_allow_html=True)
+  st.markdown("""
+  <div style='background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%); 
+              padding:35px; border-radius:20px; box-shadow:0 8px 25px rgba(255,0,0,0.3);
+              text-align:center; border: 3px solid #ffffff;'>
+      <div style='font-size:64px; margin-bottom:15px;'>🎬</div>
+      <h2 style='color:#ffffff; margin:15px 0; font-size:28px; font-weight:900; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);'>
+          로또킹 YouTube 채널 구독하세요!
+      </h2>
+      <p style='color:#ffebee; font-size:18px; margin:15px 0 25px 0; line-height:1.6;'>
+          더 많은 로또 정보와 당첨 전략을 영상으로 만나보세요!<br>
+          구독과 알림 설정으로 최신 정보를 놓치지 마세요! 🔔
+      </p>
+      <a href='https://www.youtube.com/@lottoking-s6c' target='_blank' style='text-decoration:none;'>
+          <button style='background:#ffffff; color:#ff0000; padding:18px 50px; 
+                         border:none; border-radius:50px; font-size:20px; font-weight:900;
+                         cursor:pointer; box-shadow:0 4px 15px rgba(0,0,0,0.2);
+                         transition: all 0.3s ease;'>
+              ▶️ 지금 구독하기
+          </button>
+      </a>
+      <p style='color:#ffcdd2; font-size:14px; margin-top:15px;'>
+          @lottoking-s6c
+      </p>
+  </div>
+  """, unsafe_allow_html=True)
+  
   # 메인 화면 하단 경고 메시지
   st.markdown("""
   <div style='margin-top:32px; padding:18px 0 0 0; text-align:center; color:#b00; font-size:17px; font-weight:600;'>
